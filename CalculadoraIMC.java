@@ -4,7 +4,7 @@ public class helloWorld {
 
     public static void main(String [] args){
         String nome = JOptionPane.showInputDialog("Digite seu nome");
-        //int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade: "));
+        //int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade: ")); isso vai ser usado no futuro.
         double altura = Double.parseDouble(JOptionPane.showInputDialog("Digite sua Altura"));
         double peso = Double.parseDouble(JOptionPane.showInputDialog("Digite seu Peso"));
         double CalculoIMC = peso/(altura*altura);
