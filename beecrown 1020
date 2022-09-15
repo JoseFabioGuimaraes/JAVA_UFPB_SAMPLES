@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Testes {
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+        int idadeEmDias = Integer.parseInt(leitor.nextLine());
+        int ano = idadeEmDias / 365;
+        int mes = (idadeEmDias% 365) / 30;
+        int dia=  (idadeEmDias% 365)% 30;
+        System.out.printf("%d ano(s)\n",ano);
+        System.out.printf("%d mes(es)\n",mes);
+        System.out.printf("%d dia(s)\n",dia);
+        leitor.close();
+    }
+}
